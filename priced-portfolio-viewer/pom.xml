@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>cz.scholz.kafka.demo</groupId>
+        <groupId>kafka.demo</groupId>
         <artifactId>shares</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -81,7 +81,7 @@
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>cz.scholz.kafka.demo.shares.portfolioviewer.Main</mainClass>
+                                    <mainClass>kafka.demo.shares.portfolioviewer.Main</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
